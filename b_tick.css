@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #323946;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://img3.wallspic.com/previews/7/6/4/8/98467/98467-ocean-sea-tropics-coastal_and_oceanic_landforms-palm_tree-x750.jpg'); 
+    background-size: 1300px 650px;
+
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: rgb(249, 230, 230);
+    background-image: url('https://img3.wallspic.com/previews/7/6/4/8/98467/98467-ocean-sea-tropics-coastal_and_oceanic_landforms-palm_tree-x750.jpg');
+    background-size: 1160px 540px;
+}
+.container:hover{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5bb9f390da50d330b261fdc8/1615231295778-RDJE1L1L5HCNAWAST0RD/90+copy.jpg');
+    background-size: 660px 540px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin-bottom: 20px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-SRpghSwy-3PcLJ64dnp_xOWTidTzV7REag&usqp=CAU');
+    background-size: 400px 400px;
+}
+.board:hover{
+    /* background-color: #323946; */
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5bb9f390da50d330b261fdc8/1615231295778-RDJE1L1L5HCNAWAST0RD/90+copy.jpg');
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(165, 248, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-image: url('https://e0.pxfuel.com/wallpapers/51/351/desktop-wallpaper-ocean-sea-nature-underwater-water-sun-sky-blue-rays-os-386-thumbnail.jpg');
+    background-size: 100px 200px;
+}
+.cell:hover{
+  
+   border: 2px solid rgb(215, 114, 114);
+   margin: 2px;
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJmXxo_nYTEoh19ZtBVzmox4JaHyZXpSik_vykBcJNAaApc_6PCsxCH4Uq2GzGDUAE6eo&usqp=CAU');
+   background-size: 100px 200px;
+}
+
+.message {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    /* background-color: red; */
+    color: rgb(250, 134, 200);
+}
+
+.reset-button {
+    padding: 10px 25px;
+    background-color:var(--main-color);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 1rem var(--main-color);
+    display: inline-block;
+            padding: 0.4rem 1.3rem;
+            background-color: var(--main-color);
+            border-radius: 3.8rem;
+            box-shadow: 0 0 .8rem var(--main-color);
+            font-size: 1.3rem;
+            color: red;
+            letter-spacing: .1rem;
+            font-weight: 600;
+            transition: .5s ease;
+}
+
+.head{
+    background-color: #1b5ea6;
+    color: rgb(233, 179, 161);
+}
